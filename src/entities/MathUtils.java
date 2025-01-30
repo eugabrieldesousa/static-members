@@ -11,7 +11,7 @@ public class MathUtils {
      * @param expoente O expoente (pode ser negativo).
      * @return O resultado da potência.
      */
-    public static double pow(double base, int expoente) {
+    public static double powUtil(double base, int expoente) {
         if (expoente == 0) {
             return 1; // Qualquer número elevado a 0 é 1
         }
